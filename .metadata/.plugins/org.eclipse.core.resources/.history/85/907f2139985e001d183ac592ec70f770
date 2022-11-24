@@ -1,0 +1,17 @@
+package com.poobesh.fullstackbackend.model;
+
+import javax.persistence.Entity;
+
+@Entity
+public class User {
+
+		@Id
+		@GenertatedValue
+		private long Id;
+		private String Username;
+		private String name;
+		private String email;
+		
+	
+
+}

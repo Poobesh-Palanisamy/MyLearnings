@@ -1,0 +1,15 @@
+package com.practise.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DemoApplication {
+
+	public static void main(String[] args) {
+		ConfigureApplicationContext Context = SpringaApplication.run(DemoApplication.class, args);
+	
+	context.getbean(Home.class);
+	}
+
+}

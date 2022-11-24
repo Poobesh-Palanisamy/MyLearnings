@@ -1,0 +1,15 @@
+debug=true
+
+
+#spring.datasource.url=jdbc.mysql://localhost:3306/cruddatabase?useSSL=false
+#spring.datasource.username=root
+#spring.datasource.password=9655943384
+
+#spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect
+#Spring.jpa.hibernate.ddl.auto=update
+
+#My SQL DATABASE CONFIGURATIONS
+spring.datasource.url=jdbc:mysql:///cruddatabase?useSSL=false
+spring.datasource.username=root
+spring.datasource.password=9655943384
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver

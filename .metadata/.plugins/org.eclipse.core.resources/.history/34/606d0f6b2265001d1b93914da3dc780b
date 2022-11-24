@@ -1,0 +1,5 @@
+package com.EmployeesTable.demo.model;
+
+public class Employee {
+
+}

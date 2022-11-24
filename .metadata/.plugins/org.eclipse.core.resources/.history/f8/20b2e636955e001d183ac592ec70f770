@@ -1,0 +1,5 @@
+package com.poobesh.fullstackbackend.model;
+
+public @interface GenertatedValue {
+
+}

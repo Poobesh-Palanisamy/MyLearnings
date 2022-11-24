@@ -1,0 +1,5 @@
+package com.EmployeesTable.demo.exception;
+
+public class ResourceNotfoundException {
+
+}

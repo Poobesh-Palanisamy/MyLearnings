@@ -1,0 +1,16 @@
+package com.EmployeesTable.demo.exception;
+
+import org.springframework.web.bind.annotation.ResponseStatus;
+
+@ResponseStatus(value=httpStatus)
+public class ResourceNotfoundException extends RuntimeException{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public ResourceNotfoundException (String message) {
+		super(message);
+	}
+}

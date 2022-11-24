@@ -1,0 +1,5 @@
+package com.poobesh.fullstackbackend.repository;
+
+public class UserRepository {
+
+}
